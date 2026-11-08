@@ -1,8 +1,5 @@
-x = 37.5 
-y = 30.8
-
-rounded1 = round(x)
-rounded2 = round(y)
-ans = rounded1+rounded2
-
+from fractions import Fraction
+x = Fraction(3,4)
+y = 12
+ans  = y/x
 print(ans)
